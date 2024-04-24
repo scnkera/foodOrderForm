@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Order Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Add your restaurant order form below -->
+    <h2 style="text-align: center">Restaurant Order Form</h2>
+    <form role="order_form">
+      <div class="formName">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div class="formEmail">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+      <div class="formTel">
+        <label for="phoneNumber">Phone Number:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required />
+      </div>
+      <div class="deliveryDate">
+        <label for="deliveryDate">Preferred Delivery Date:</label>
+        <input type="date" id="deliveryDate" name="deliveryDate" required />
+      </div>
+      <div class="deliveryTime">
+        <label for="deliveryTime">Preferred Delivery Time:</label>
+        <input type="time" id="deliveryTime" name="deliveryTime" required />
+      </div>
+
+      <p>Order Details</p>
+      <input type="search" placeholder="Put Order Form Here" />
+      <input type="submit" value="order" />
+    </form>
+    <!-- Add your restaurant order form above -->
+  </body>
+</html>
