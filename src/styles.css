@@ -10,6 +10,7 @@ h2 {
     padding: 25px;
     font-weight: bold;
     font-size: 50px;
+    text-align: center;
 }
 
 form{
@@ -54,3 +55,9 @@ input[type="submit"] {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+.ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
