@@ -5,8 +5,8 @@
 
 .main{
     margin: 50px;
-    background-color: #d75d77;
-    border: 5px solid pink; 
+    background-color: plum;
+    border: 5px solid lightgray; 
   }
   
   .nav-bar{
@@ -17,7 +17,8 @@
   
   .nav-bar ul li a{
     text-decoration: none;
-    color: white;
+    color: darkslategray;
+    font-weight: 700;
   }
   
   .nav-bar ul li{
@@ -29,7 +30,7 @@
     border-bottom: 2px solid gray;
     border-radius: 10%;
     padding: 10px;
-    background-color: #e91e63;
+    background-color: plum;
     color: white;
   }
   
