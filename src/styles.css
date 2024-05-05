@@ -7,12 +7,14 @@
     margin: 50px;
     background-color: plum;
     border: 5px solid lightgray; 
+    border-radius: 5px;
   }
   
   .nav-bar{
     word-spacing: 40px;
     font-size: 20px;
     font-family: arial;
+    padding: 5px;
   }
   
   .nav-bar ul li a{
