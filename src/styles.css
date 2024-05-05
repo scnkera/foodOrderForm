@@ -6,7 +6,7 @@
 .main{
     margin: 50px;
     background-color: plum;
-    border: 5px solid lightgray; 
+    border: 5px solid darkgray; 
     border-radius: 5px;
   }
   
@@ -19,7 +19,7 @@
   
   .nav-bar ul li a{
     text-decoration: none;
-    color: darkslategray;
+    color: black;
     font-weight: 700;
   }
   
