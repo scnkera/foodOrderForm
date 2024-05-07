@@ -35,6 +35,8 @@
     background-color: plum;
     color: white;
   }
+
+
   
 body{
     background-color: beige;
@@ -47,28 +49,98 @@ h2 {
     text-align: center;
 }
 
+#menuTitle{
+  alight-item: center;
+}
+#foodMenu{
+  width: 75%;
+  height: 350px;
+  border: 10px solid plum;
+  padding: 0px 20px;
+  border-radius: 20px;
+  line-height: 2;
+  background-color: whitesmoke;
+}
+
+#itemImages{
+  /* display: inline-flex; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+#cake{
+  background-image: url("../cake.png");
+  background-size: contain;
+  /* background-color: pink; */
+}
+#creme{
+  background-image: url("../creme.png");
+  background-size: contain;
+}
+#cupcake{
+  background-image: url("../cupcake.png");
+  background-size: contain;
+  height: 100%;
+}
+
+#cake,
+#cupcake,
+#creme {
+  display: flex;
+  border: 2px solid black;
+  width:33%;
+  height: 180px;
+  border-radius: 5px;
+}
+
 form{
-    width: 50%;
-    height: 600px;
+    width: 75%;
+    height: 650px;
     border: 10px solid plum;
     padding: 20px;
     border-radius: 20px;
     line-height: 2;
-    background-color:white;
+    background-color: whitesmoke;
 }
+
+.inLine{
+  /* display: inline-flex; */
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+
+}
+
+.city,
+.state,
+.zipCode {
+  display: flex;
+  width:33%;
+}
+
+
+
 div input[type="name"],
 div input[type="text"],
 div input[type="email"],
 div input[type="tel"],
 div input[type="date"],
 div input[type="time"],
-input[type="search"] {
+input[type="search"],
+#orders {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
   border: 1px solid black;
+}
+
+.CVV,
+.expirationDate{
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 input[type="search"]{
@@ -76,7 +148,8 @@ input[type="search"]{
 }
 
 
-input[type="submit"] {
+input[type="submit"],
+#submitButton {
     width: 50%;
     padding: 15px;
     display: block;
