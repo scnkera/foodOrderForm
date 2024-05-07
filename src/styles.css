@@ -50,7 +50,7 @@ h2 {
 }
 
 #menuTitle{
-  alight-item: center;
+  text-align: center;
 }
 #foodMenu{
   width: 75%;
@@ -60,6 +60,7 @@ h2 {
   border-radius: 20px;
   line-height: 2;
   background-color: whitesmoke;
+  text-align: center;
 }
 
 #itemImages{
