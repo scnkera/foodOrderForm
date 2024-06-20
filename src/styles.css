@@ -71,17 +71,25 @@ h2 {
 }
 
 #cake{
-  background-image: url("../cake.png");
-  background-size: contain;
+  background-image: url("../static/cake.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
   /* background-color: pink; */
 }
 #creme{
-  background-image: url("../creme.png");
-  background-size: contain;
+  background-image: url("../static/creme.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
 }
 #cupcake{
-  background-image: url("../cupcake.png");
-  background-size: contain;
+  background-image: url("../static/cupcake.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100%;
 }
 
